@@ -104,7 +104,9 @@ A sample JSON file (`books_data.json`) is included for quick reference or migrat
 
 ## 📜 License
 
-This project is open-source for educational use. Feel free to modify it for your personal or academic use.
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
