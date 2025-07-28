@@ -81,10 +81,10 @@ Open your browser and go to:
 ## 🖼️ Screenshots samples
 
 ### 📚 Book Listing Page
-![Book List](Screenshots/book_list.png)
+![Book List](library/Screenshots/book_list.png)
 
 ### ➕ Add New Book
-![Add Book](Screenshots/add_new_book.png)
+![Add Book](library/Screenshots/add_new_book.png)
 
 ---
 
