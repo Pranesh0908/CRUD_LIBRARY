@@ -26,16 +26,16 @@ This system helps manage books, including adding new entries, editing details, d
 
 ## 📂 Project Structure
 
-```library/
+```
+library/
 ├── db.php # Database connection
 ├── style.css # Main CSS styles
 ├── index.php # Home page (book list with edit/delete)
 ├── add.php # Add a new book
 ├── edit.php # Edit book details
 ├── delete.php # Delete a book
-├── ScreenShots
-└── db/
-└── library_db.json # Sample database structure (JSON backup)
+├── Screenshots
+└── books_data.json # Sample database structure (JSON backup)
 ```
 
 ---
@@ -66,4 +66,51 @@ CREATE TABLE books (
   genre VARCHAR(50),
   year INT,
   publisher VARCHAR(100)
-);```
+);
+```
+
+## 🚀 Run the Application
+
+Open your browser and go to:
+
+- **View All Books**: [http://localhost/library/](http://localhost/library/)
+- **Add New Book**: [http://localhost/library/add.php](http://localhost/library/add.php)
+
+---
+
+## 🖼️ Screenshots samples
+
+### 📚 Book Listing Page
+![Book Listing](Screendhots/books.png)
+
+### ➕ Add New Book
+![Add Book](ScreenShots/add.png)
+
+---
+
+## 💾 Database Sample (JSON)
+
+A sample JSON file (`books_data.json`) is included for quick reference or migration.
+
+---
+
+## 📌 Notes
+
+- Ensure `mysqli` extension is enabled in your `php.ini`
+- You can import/export JSON data manually through phpMyAdmin if needed
+- Use `style.css` to modify table layout and theme
+
+---
+
+## 📜 License
+
+This project is open-source for educational use. Feel free to modify it for your personal or academic use.
+
+---
+
+> If you'd like, I can help you:
+> - Generate the `.json` file from your current SQL structure
+> - Prepare the screenshots automatically into the `Screenshots` folder
+> - Upload everything to a GitHub repo with proper commits
+
+Let me know if you want help uploading to GitHub or connecting it to GitHub Pages too.
