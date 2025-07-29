@@ -102,7 +102,7 @@ A sample JSON file (`books_data.json`) is included for quick reference or migrat
 
 ---
 
-## 📜 License
+
 
 ## 📜 License
 
